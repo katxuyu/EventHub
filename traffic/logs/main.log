@@ -1,0 +1,1357 @@
+20:55:44,469 azure.eventhub._eventprocessor.event_processor INFO EventProcessor '50794213-7801-4ccc-a3d1-60b2223f23ea' is being started
+20:55:44,884 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+20:55:44,995 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+20:55:44,996 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+20:55:44,996 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+20:55:44,996 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+20:55:44,997 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:44,997 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:44,998 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:45,3 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:45,40 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+20:55:45,107 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+20:55:45,168 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+20:55:45,235 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:45,240 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:45,307 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:45,307 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:45,567 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:45,567 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:45,568 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:45,568 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:45,612 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:45,612 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:45,617 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:45,617 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:46,480 azure.eventhub._client_base INFO 'eventhub.pysdk-3432b283' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+20:55:46,486 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:46,486 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:46,486 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:46,486 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:46,486 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:55:46,487 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:46,487 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:46,487 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:55:46,487 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:46,487 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:46,487 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:46,487 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:46,487 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:46,487 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:46,487 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+20:55:46,487 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+20:55:46,487 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+20:55:46,487 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+20:55:46,487 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:55:46,487 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:55:46,487 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:55:46,488 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:55:46,488 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:46,488 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:46,488 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:46,488 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:46,874 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+20:55:46,978 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+20:55:46,983 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+20:55:46,994 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+20:55:47,5 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+20:55:47,17 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:47,22 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:47,33 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:47,39 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:47,44 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+20:55:47,111 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+20:55:47,172 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+20:55:47,239 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:47,245 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:47,317 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:47,323 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:47,580 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:47,586 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:47,597 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:47,603 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:47,623 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:47,629 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:47,646 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:47,651 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:49,317 azure.eventhub._client_base INFO 'eventhub.pysdk-3432b283' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+20:55:49,328 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:49,328 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:49,334 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:49,334 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:49,339 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:55:49,340 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:49,340 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:49,340 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:55:49,340 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:49,340 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:49,340 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:49,340 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:49,346 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:49,346 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:49,346 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+20:55:49,352 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+20:55:49,352 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+20:55:49,352 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+20:55:49,352 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:55:49,352 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:55:49,352 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:55:49,352 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:55:49,352 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:49,352 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:49,352 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:49,352 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:49,708 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+20:55:49,811 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+20:55:49,817 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+20:55:49,822 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+20:55:49,823 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+20:55:49,829 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:49,834 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:49,835 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:49,835 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:49,853 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+20:55:49,916 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+20:55:49,982 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+20:55:50,43 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:50,44 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:50,115 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:50,121 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:50,361 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:50,366 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:50,372 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:50,372 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:50,398 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:50,404 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:50,410 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:50,416 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:53,686 azure.eventhub._client_base INFO 'eventhub.pysdk-3432b283' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+20:55:53,697 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:53,702 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:53,713 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:53,718 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:53,729 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:55:53,735 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:53,740 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:53,746 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:55:53,751 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:53,751 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:53,757 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:53,757 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:53,762 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:53,768 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:55:53,773 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+20:55:53,784 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+20:55:53,789 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+20:55:53,795 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+20:55:53,795 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:55:53,795 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:55:53,795 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:55:53,795 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:55:53,795 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:53,795 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:53,795 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:53,796 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:55:54,160 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+20:55:54,267 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+20:55:54,273 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+20:55:54,284 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+20:55:54,295 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+20:55:54,306 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:54,312 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:54,323 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:54,323 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:54,323 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+20:55:54,384 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+20:55:54,451 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+20:55:54,522 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:54,523 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:54,592 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:54,592 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:54,846 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:54,846 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:54,846 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:54,851 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:55:54,896 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:54,902 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:54,926 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:55:54,933 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:56:01,411 azure.eventhub._client_base INFO 'eventhub.pysdk-3432b283' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+20:56:01,412 azure.eventhub._client_base INFO 'eventhub.pysdk-3432b283' returns an exception AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')
+20:56:01,412 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:56:01,412 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:56:01,413 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:56:01,413 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:56:01,413 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:56:01,413 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:56:01,413 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:56:01,414 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:56:01,414 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:56:01,414 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:56:01,414 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:56:01,414 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:56:01,415 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:56:01,415 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:56:01,415 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+20:56:01,420 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+20:56:01,420 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+20:56:01,420 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+20:56:01,421 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:56:01,421 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:56:01,421 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:56:01,428 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:56:01,433 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:56:01,433 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:56:01,434 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:56:01,434 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:56:01,477 azure.eventhub._eventprocessor.event_processor WARNING EventProcessor instance '50794213-7801-4ccc-a3d1-60b2223f23ea' of eventhub 'webhookdata' consumer group 'dev'. An error occurred while load-balancing and claiming ownership. The exception is AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}'). Retrying after 10.261880802288914 seconds
+20:56:01,487 root ERROR An exception: Management authentication failed. Status code: 401, Description: {description!r}
+Error condition: ErrorCondition.UnauthorizedAccess
+ Error Description: Management authentication failed. Status code: 401, Description: {description!r} occurred during the load balance process.
+20:56:04,997 azure.eventhub._eventprocessor.event_processor INFO EventProcessor '50794213-7801-4ccc-a3d1-60b2223f23ea' has been stopped.
+20:56:04,997 root WARNING Stopped Receiving.
+20:58:28,296 azure.eventhub._eventprocessor.event_processor INFO EventProcessor '8468c8c2-b549-480e-a221-c0625c283028' is being started
+20:58:28,698 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+20:58:28,803 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+20:58:28,809 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+20:58:28,819 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+20:58:28,830 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+20:58:28,842 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:28,848 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:28,859 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:28,864 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:28,870 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+20:58:28,932 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+20:58:29,11 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+20:58:29,83 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:29,88 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:29,160 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:29,166 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:29,426 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:29,431 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:29,443 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:29,448 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:29,467 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:29,467 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:29,486 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:29,486 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:30,349 azure.eventhub._client_base INFO 'eventhub.pysdk-d94cc006' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+20:58:30,355 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:30,360 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:30,366 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:30,371 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:30,372 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:58:30,377 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:30,383 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:30,388 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:58:30,396 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:30,404 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:30,415 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:30,420 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:30,435 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:30,440 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:30,446 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+20:58:30,457 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+20:58:30,462 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+20:58:30,468 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+20:58:30,484 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:30,490 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:30,490 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:30,496 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:30,502 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:30,507 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:30,513 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:30,519 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:30,878 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+20:58:30,987 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+20:58:30,992 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+20:58:30,998 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+20:58:31,4 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+20:58:31,10 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:31,16 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:31,27 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:31,32 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:31,38 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+20:58:31,99 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+20:58:31,166 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+20:58:31,233 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:31,238 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:31,318 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:31,323 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:31,578 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:31,584 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:31,595 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:31,601 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:31,626 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:31,632 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:31,649 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:31,655 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:33,324 azure.eventhub._client_base INFO 'eventhub.pysdk-d94cc006' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+20:58:33,331 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:33,331 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:33,331 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:33,332 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:33,332 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:58:33,332 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:33,332 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:33,332 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:58:33,333 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:33,333 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:33,333 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:33,333 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:33,333 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:33,338 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:33,338 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+20:58:33,339 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+20:58:33,339 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+20:58:33,339 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+20:58:33,339 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:33,339 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:33,339 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:33,339 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:33,339 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:33,339 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:33,339 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:33,339 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:33,734 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+20:58:33,846 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+20:58:33,851 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+20:58:33,862 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+20:58:33,863 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+20:58:33,874 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:33,880 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:33,891 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:33,896 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:33,903 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+20:58:33,972 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+20:58:34,39 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+20:58:34,105 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:34,111 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:34,178 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:34,184 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:34,448 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:34,454 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:34,465 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:34,470 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:34,488 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:34,493 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:34,505 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:34,512 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:37,778 azure.eventhub._client_base INFO 'eventhub.pysdk-d94cc006' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+20:58:37,789 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:37,795 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:37,806 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:37,812 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:37,822 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:58:37,828 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:37,834 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:37,839 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:58:37,845 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:37,850 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:37,863 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:37,863 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:37,863 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:37,864 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:37,864 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+20:58:37,864 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+20:58:37,869 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+20:58:37,875 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+20:58:37,881 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:37,886 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:37,892 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:37,897 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:37,902 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:37,908 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:37,913 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:37,919 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:38,297 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+20:58:38,404 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+20:58:38,410 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+20:58:38,416 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+20:58:38,426 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+20:58:38,438 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:38,443 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:38,449 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:38,454 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:38,455 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+20:58:38,519 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+20:58:38,575 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+20:58:38,637 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:38,643 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:38,709 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:38,715 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:38,973 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:38,978 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:38,979 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:38,979 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+20:58:39,20 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:39,25 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:39,31 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:39,31 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+20:58:45,495 azure.eventhub._client_base INFO 'eventhub.pysdk-d94cc006' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+20:58:45,495 azure.eventhub._client_base INFO 'eventhub.pysdk-d94cc006' returns an exception AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')
+20:58:45,496 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:45,501 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:45,502 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:45,502 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:45,502 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:58:45,502 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:45,502 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:45,502 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+20:58:45,502 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:45,503 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:45,503 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:45,508 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:45,508 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:45,508 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+20:58:45,509 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+20:58:45,509 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+20:58:45,509 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+20:58:45,509 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+20:58:45,509 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:45,509 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:45,509 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:45,509 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+20:58:45,509 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:45,509 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:45,509 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:45,510 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+20:58:45,537 azure.eventhub._eventprocessor.event_processor WARNING EventProcessor instance '8468c8c2-b549-480e-a221-c0625c283028' of eventhub 'webhookdata' consumer group 'dev'. An error occurred while load-balancing and claiming ownership. The exception is AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}'). Retrying after 10.302918826526001 seconds
+20:58:45,551 root ERROR An exception: Management authentication failed. Status code: 401, Description: {description!r}
+Error condition: ErrorCondition.UnauthorizedAccess
+ Error Description: Management authentication failed. Status code: 401, Description: {description!r} occurred during the load balance process.
+20:58:50,927 azure.eventhub._eventprocessor.event_processor INFO EventProcessor '8468c8c2-b549-480e-a221-c0625c283028' has been stopped.
+20:58:50,928 root WARNING Stopped Receiving.
+21:14:36,774 azure.eventhub._eventprocessor.event_processor INFO EventProcessor 'cc871c7a-c09f-4f83-be79-33799b6bcca9' is being started
+21:14:37,190 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:14:37,307 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:14:37,316 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:14:37,327 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:14:37,334 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:14:37,348 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:37,353 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:37,359 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:37,370 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:37,388 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:14:37,449 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:14:37,511 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:14:37,578 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:37,583 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:37,653 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:37,653 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:37,916 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:37,922 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:37,928 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:37,935 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:37,963 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:37,968 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:37,984 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:37,985 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:38,850 azure.eventhub._client_base INFO 'eventhub.pysdk-94d5183b' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:14:38,864 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:38,870 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:38,881 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:38,881 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:38,887 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:14:38,892 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:38,898 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:38,898 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:14:38,898 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:38,898 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:38,904 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:38,909 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:38,920 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:38,920 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:38,926 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:14:38,931 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:14:38,931 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:14:38,937 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:14:38,937 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:38,942 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:38,943 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:38,943 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:38,943 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:38,943 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:38,943 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:38,943 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:39,328 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:14:39,449 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:14:39,455 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:14:39,466 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:14:39,467 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:14:39,473 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:39,478 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:39,490 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:39,496 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:39,502 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:14:39,563 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:14:39,619 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:14:39,681 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:39,687 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:39,756 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:39,762 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:40,11 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:40,16 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:40,27 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:40,33 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:40,56 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:40,62 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:40,73 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:40,78 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:41,765 azure.eventhub._client_base INFO 'eventhub.pysdk-94d5183b' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:14:41,776 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:41,782 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:41,793 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:41,794 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:41,799 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:14:41,804 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:41,805 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:41,805 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:14:41,805 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:41,805 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:41,810 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:41,816 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:41,821 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:41,822 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:41,822 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:14:41,822 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:14:41,822 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:14:41,822 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:14:41,822 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:41,822 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:41,822 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:41,823 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:41,823 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:41,823 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:41,823 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:41,823 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:42,189 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:14:42,296 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:14:42,296 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:14:42,297 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:14:42,297 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:14:42,297 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:42,297 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:42,298 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:42,303 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:42,344 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:14:42,415 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:14:42,493 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:14:42,560 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:42,566 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:42,627 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:42,633 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:42,886 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:42,892 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:42,905 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:42,905 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:42,935 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:42,935 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:42,946 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:42,951 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:46,232 azure.eventhub._client_base INFO 'eventhub.pysdk-94d5183b' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:14:46,243 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:46,249 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:46,260 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:46,261 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:46,272 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:14:46,272 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:46,278 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:46,278 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:14:46,278 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:46,285 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:46,291 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:46,291 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:46,298 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:46,298 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:46,298 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:14:46,303 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:14:46,303 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:14:46,304 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:14:46,304 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:46,304 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:46,309 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:46,309 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:46,309 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:46,309 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:46,309 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:46,310 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:46,696 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:14:46,805 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:14:46,811 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:14:46,823 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:14:46,823 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:14:46,829 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:46,829 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:46,829 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:46,830 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:46,845 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:14:46,901 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:14:46,974 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:14:47,40 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:47,40 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:47,101 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:47,106 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:47,366 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:47,372 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:47,383 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:47,388 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:14:47,412 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:47,417 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:47,425 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:47,425 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:14:53,904 azure.eventhub._client_base INFO 'eventhub.pysdk-94d5183b' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:14:53,910 azure.eventhub._client_base INFO 'eventhub.pysdk-94d5183b' returns an exception AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')
+21:14:53,916 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:53,916 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:53,917 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:53,917 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:53,925 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:14:53,930 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:53,931 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:53,937 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:14:53,937 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:53,937 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:53,948 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:53,953 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:53,959 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:53,959 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:14:53,959 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:14:53,965 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:14:53,965 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:14:53,965 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:14:53,970 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:53,970 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:53,970 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:53,971 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:14:53,971 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:53,971 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:53,971 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:53,971 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:14:53,982 azure.eventhub._eventprocessor.event_processor WARNING EventProcessor instance 'cc871c7a-c09f-4f83-be79-33799b6bcca9' of eventhub 'webhookdata' consumer group 'dev'. An error occurred while load-balancing and claiming ownership. The exception is AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}'). Retrying after 11.9842919618532 seconds
+21:14:53,993 root ERROR An exception: Management authentication failed. Status code: 401, Description: {description!r}
+Error condition: ErrorCondition.UnauthorizedAccess
+ Error Description: Management authentication failed. Status code: 401, Description: {description!r} occurred during the load balance process.
+21:15:05,691 azure.eventhub._eventprocessor.event_processor INFO EventProcessor 'cc871c7a-c09f-4f83-be79-33799b6bcca9' has been stopped.
+21:15:05,691 root WARNING Stopped Receiving.
+21:19:52,525 azure.eventhub._eventprocessor.event_processor INFO EventProcessor 'ed9e454b-ca82-4b74-b8da-0579852bbafe' is being started
+21:19:52,946 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:19:53,58 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:19:53,63 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:19:53,74 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:19:53,85 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:19:53,91 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:53,91 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:53,92 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:53,92 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:53,111 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:19:53,166 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:19:53,233 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:19:53,294 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:53,299 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:53,366 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:53,371 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:53,618 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:53,624 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:53,624 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:53,625 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:53,655 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:53,660 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:53,678 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:53,683 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:54,558 azure.eventhub._client_base INFO 'eventhub.pysdk-513fa0c8' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:19:54,564 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:54,564 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:54,564 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:54,565 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:54,565 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:19:54,565 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:54,565 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:54,565 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:19:54,565 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:54,565 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:54,566 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:54,566 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:54,566 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:54,566 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:54,566 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:19:54,566 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:19:54,566 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:19:54,566 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:19:54,566 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:19:54,566 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:19:54,566 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:19:54,567 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:19:54,567 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:54,567 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:54,567 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:54,567 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:54,960 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:19:55,72 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:19:55,80 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:19:55,91 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:19:55,102 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:19:55,113 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:55,121 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:55,132 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:55,137 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:55,143 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:19:55,204 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:19:55,265 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:19:55,327 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:55,332 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:55,404 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:55,410 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:55,674 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:55,679 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:55,685 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:55,685 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:55,714 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:55,714 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:55,721 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:55,723 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:57,391 azure.eventhub._client_base INFO 'eventhub.pysdk-513fa0c8' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:19:57,397 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:57,397 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:57,398 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:57,399 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:57,405 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:19:57,405 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:57,405 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:57,405 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:19:57,405 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:57,406 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:57,406 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:57,413 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:57,414 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:57,414 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:19:57,414 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:19:57,414 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:19:57,414 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:19:57,414 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:19:57,414 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:19:57,414 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:19:57,414 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:19:57,414 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:19:57,414 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:57,415 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:57,415 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:57,415 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:19:57,790 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:19:57,908 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:19:57,915 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:19:57,921 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:19:57,922 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:19:57,922 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:57,923 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:57,923 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:57,923 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:57,951 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:19:58,12 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:19:58,83 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:19:58,151 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:58,157 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:58,219 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:58,224 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:58,483 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:58,490 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:58,503 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:58,503 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:19:58,528 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:58,528 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:58,545 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:19:58,545 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:01,821 azure.eventhub._client_base INFO 'eventhub.pysdk-513fa0c8' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:20:01,821 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:01,821 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:01,822 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:01,822 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:01,822 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:20:01,822 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:01,822 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:01,822 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:20:01,822 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:01,822 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:01,822 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:01,823 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:01,823 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:01,823 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:01,823 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:20:01,831 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:20:01,832 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:20:01,832 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:20:01,832 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:01,832 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:01,832 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:01,832 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:01,832 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:01,832 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:01,832 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:01,832 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:02,231 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:20:02,353 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:20:02,359 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:20:02,370 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:20:02,384 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:20:02,396 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:02,397 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:02,397 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:02,397 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:02,398 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:20:02,453 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:20:02,520 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:20:02,587 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:02,587 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:02,656 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:02,656 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:02,907 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:02,913 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:02,924 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:02,924 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:02,952 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:02,958 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:02,972 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:02,978 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:09,452 azure.eventhub._client_base INFO 'eventhub.pysdk-513fa0c8' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:20:09,457 azure.eventhub._client_base INFO 'eventhub.pysdk-513fa0c8' returns an exception AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')
+21:20:09,468 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:09,474 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:09,484 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:09,485 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:09,485 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:20:09,485 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:09,485 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:09,485 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:20:09,485 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:09,485 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:09,491 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:09,497 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:09,508 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:09,508 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:09,508 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:20:09,508 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:20:09,508 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:20:09,508 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:20:09,508 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:09,509 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:09,509 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:09,509 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:09,509 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:09,509 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:09,509 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:09,509 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:09,520 azure.eventhub._eventprocessor.event_processor WARNING EventProcessor instance 'ed9e454b-ca82-4b74-b8da-0579852bbafe' of eventhub 'webhookdata' consumer group 'dev'. An error occurred while load-balancing and claiming ownership. The exception is AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}'). Retrying after 10.629122551575108 seconds
+21:20:09,526 root ERROR An exception: Management authentication failed. Status code: 401, Description: {description!r}
+Error condition: ErrorCondition.UnauthorizedAccess
+ Error Description: Management authentication failed. Status code: 401, Description: {description!r} occurred during the load balance process.
+21:20:20,526 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:20:20,630 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:20:20,643 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:20:20,656 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:20:20,673 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:20:20,679 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:20,686 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:20,692 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:20,692 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:20,692 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:20:20,754 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:20:20,815 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:20:20,877 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:20,877 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:20,943 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:20,948 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:21,194 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:21,199 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:21,211 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:21,212 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:21,243 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:21,243 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:21,260 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:21,260 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:22,136 azure.eventhub._client_base INFO 'eventhub.pysdk-513fa0c8' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:20:22,136 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:22,136 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:22,137 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:22,137 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:22,137 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:20:22,137 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:22,137 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:22,137 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:20:22,137 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:22,137 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:22,137 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:22,138 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:22,138 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:22,138 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:22,138 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:20:22,138 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:20:22,138 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:20:22,138 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:20:22,138 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:22,138 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:22,138 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:22,138 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:22,138 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:22,139 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:22,139 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:22,139 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:22,540 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:20:22,663 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:20:22,668 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:20:22,680 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:20:22,691 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:20:22,691 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:22,692 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:22,697 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:22,703 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:22,703 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:20:22,765 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:20:22,826 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:20:22,898 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:22,903 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:22,975 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:22,975 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:23,215 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:23,220 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:23,232 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:23,232 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:23,254 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:23,259 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:23,270 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:23,277 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:24,954 azure.eventhub._client_base INFO 'eventhub.pysdk-513fa0c8' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:20:24,965 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:24,970 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:24,981 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:24,986 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:24,993 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:20:24,993 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:24,993 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:24,994 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:20:24,994 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:24,995 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:25,1 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:25,1 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:25,6 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:25,6 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:25,6 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:20:25,7 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:20:25,8 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:20:25,8 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:20:25,8 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:25,8 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:25,8 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:25,9 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:25,9 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:25,9 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:25,9 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:25,9 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:25,351 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:20:25,475 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:20:25,480 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:20:25,491 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:20:25,500 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:20:25,516 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:25,522 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:25,532 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:25,538 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:25,546 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:20:25,618 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:20:25,684 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:20:25,751 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:25,751 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:25,829 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:25,834 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:26,80 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:26,85 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:26,96 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:26,97 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:26,124 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:26,124 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:26,142 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:26,150 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:29,431 azure.eventhub._client_base INFO 'eventhub.pysdk-513fa0c8' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:20:29,436 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:29,442 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:29,447 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:29,448 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:29,448 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:20:29,448 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:29,449 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:29,449 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:20:29,449 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:29,449 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:29,449 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:29,449 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:29,449 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:29,449 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:20:29,449 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:20:29,450 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:20:29,450 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:20:29,450 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:20:29,450 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:29,450 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:29,450 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:29,450 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:20:29,450 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:29,450 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:29,450 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:29,450 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:20:29,848 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:20:29,957 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:20:29,963 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:20:29,975 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:20:29,988 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:20:30,0 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:30,5 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:30,11 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:30,17 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:20:30,27 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:20:30,94 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:20:30,161 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:20:30,222 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:30,228 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:30,295 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:30,300 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:20:30,513 azure.eventhub._eventprocessor.event_processor INFO EventProcessor 'ed9e454b-ca82-4b74-b8da-0579852bbafe' has been stopped.
+21:20:30,514 root WARNING Stopped Receiving.
+21:23:34,507 azure.eventhub._eventprocessor.event_processor INFO EventProcessor '6500c091-0412-4f4c-97b3-a2032bc11506' is being started
+21:23:34,907 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:23:35,13 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:23:35,18 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:23:35,33 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:23:35,44 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:23:35,56 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:35,62 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:35,75 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:35,81 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:35,93 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:23:35,159 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:23:35,226 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:23:35,287 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:35,293 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:35,360 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:35,365 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:35,623 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:35,629 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:35,635 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:35,635 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:35,666 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:35,666 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:35,687 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:35,693 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:36,564 azure.eventhub._client_base INFO 'eventhub.pysdk-adcdf5de' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:23:36,570 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:36,575 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:36,581 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:36,581 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:36,587 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:23:36,587 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:36,587 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:36,587 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:23:36,587 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:36,587 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:36,588 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:36,588 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:36,588 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:36,588 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:36,588 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:23:36,588 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:23:36,588 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:23:36,589 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:23:36,589 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:36,589 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:36,589 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:36,589 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:36,589 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:36,589 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:36,589 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:36,589 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:36,984 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:23:37,88 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:23:37,93 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:23:37,94 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:23:37,94 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:23:37,101 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:37,106 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:37,107 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:37,107 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:37,130 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:23:37,186 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:23:37,253 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:23:37,320 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:37,326 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:37,400 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:37,405 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:37,669 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:37,669 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:37,669 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:37,669 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:37,713 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:37,719 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:37,726 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:37,726 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:39,391 azure.eventhub._client_base INFO 'eventhub.pysdk-adcdf5de' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:23:39,399 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:39,399 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:39,400 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:39,400 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:39,400 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:23:39,400 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:39,400 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:39,400 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:23:39,400 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:39,401 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:39,401 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:39,401 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:39,401 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:39,401 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:39,401 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:23:39,401 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:23:39,401 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:23:39,401 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:23:39,401 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:39,402 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:39,402 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:39,402 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:39,402 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:39,402 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:39,402 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:39,402 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:39,787 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:23:39,897 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:23:39,902 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:23:39,913 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:23:39,929 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:23:39,942 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:39,942 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:39,949 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:39,954 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:39,965 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:23:40,26 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:23:40,92 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:23:40,159 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:40,164 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:40,226 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:40,231 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:40,493 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:40,493 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:40,495 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:40,495 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:40,538 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:40,544 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:40,544 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:40,545 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:43,812 azure.eventhub._client_base INFO 'eventhub.pysdk-adcdf5de' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:23:43,812 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:43,812 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:43,813 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:43,813 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:43,813 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:23:43,813 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:43,813 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:43,813 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:23:43,813 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:43,813 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:43,813 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:43,814 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:43,814 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:43,814 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:43,814 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:23:43,814 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:23:43,814 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:23:43,814 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:23:43,814 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:43,814 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:43,814 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:43,814 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:43,815 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:43,815 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:43,815 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:43,815 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:44,204 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:23:44,304 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:23:44,304 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:23:44,304 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:23:44,305 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:23:44,305 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:44,305 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:44,306 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:44,306 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:44,351 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:23:44,406 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:23:44,462 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:23:44,517 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:44,518 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:44,574 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:44,574 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:44,798 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:44,798 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:44,804 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:44,805 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:23:44,843 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:44,843 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:44,855 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:44,855 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:23:51,312 azure.eventhub._client_base INFO 'eventhub.pysdk-adcdf5de' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:23:51,312 azure.eventhub._client_base INFO 'eventhub.pysdk-adcdf5de' returns an exception AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')
+21:23:51,312 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:51,312 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:51,312 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:51,313 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:51,313 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:23:51,313 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:51,313 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:51,313 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:23:51,313 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:51,313 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:51,313 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:51,313 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:51,314 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:51,314 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:23:51,314 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:23:51,314 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:23:51,314 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:23:51,314 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:23:51,314 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:51,314 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:51,314 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:51,314 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:23:51,314 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:51,314 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:51,315 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:51,315 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:23:51,361 azure.eventhub._eventprocessor.event_processor WARNING EventProcessor instance '6500c091-0412-4f4c-97b3-a2032bc11506' of eventhub 'webhookdata' consumer group 'dev'. An error occurred while load-balancing and claiming ownership. The exception is AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}'). Retrying after 10.670370830721318 seconds
+21:23:51,361 root ERROR An exception: Management authentication failed. Status code: 401, Description: {description!r}
+Error condition: ErrorCondition.UnauthorizedAccess
+ Error Description: Management authentication failed. Status code: 401, Description: {description!r} occurred during the load balance process.
+21:24:02,412 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:24:02,531 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:24:02,537 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:24:02,538 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:24:02,538 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:24:02,539 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:02,544 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:02,544 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:02,545 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:02,571 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:24:02,641 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:24:02,702 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:24:02,769 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:02,769 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:02,842 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:02,848 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:03,114 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:03,114 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:03,120 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:03,120 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:03,157 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:03,157 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:03,163 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:03,163 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:04,29 azure.eventhub._client_base INFO 'eventhub.pysdk-adcdf5de' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:24:04,29 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:04,29 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:04,30 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:04,35 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:04,36 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:24:04,36 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:04,36 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:04,36 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:24:04,36 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:04,36 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:04,36 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:04,37 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:04,37 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:04,37 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:04,37 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:24:04,37 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:24:04,37 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:24:04,37 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:24:04,37 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:24:04,37 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:24:04,37 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:24:04,37 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:24:04,38 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:04,38 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:04,38 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:04,38 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:05,257 azure.eventhub._pyamqp._transport INFO Transport connection failed: TimeoutError('timed out')
+21:24:06,869 azure.eventhub._client_base INFO 'eventhub.pysdk-adcdf5de' has an exception (ConnectError('Failed to initiate the connection due to exception: timed out\nError condition: ErrorCondition.SocketError\n Error Description: Failed to initiate the connection due to exception: timed out')). Retrying...
+21:24:07,228 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:24:07,342 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:24:07,347 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:24:07,353 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:24:07,365 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:24:07,366 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:07,366 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:07,367 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:07,367 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:07,403 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:24:07,459 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:24:07,523 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:24:07,596 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:07,596 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:07,653 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:07,653 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:07,886 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:07,886 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:07,886 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:07,887 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:07,935 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:07,940 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:07,952 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:07,958 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:11,225 azure.eventhub._client_base INFO 'eventhub.pysdk-adcdf5de' has an exception (AuthenticationError('Management authentication failed. Status code: 401, Description: {description!r}\nError condition: ErrorCondition.UnauthorizedAccess\n Error Description: Management authentication failed. Status code: 401, Description: {description!r}')). Retrying...
+21:24:11,231 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:11,231 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:11,232 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:11,232 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:11,238 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:24:11,238 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:11,238 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:11,238 azure.eventhub._pyamqp.link INFO An error occurred when detaching the link: AMQPConnectionError('Error condition: ErrorCondition.InternalError\n Error Description: Link already closed.')
+21:24:11,238 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:11,238 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:11,239 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:11,239 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:11,239 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:11,239 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACHED: 3> -> <LinkState.DETACH_SENT: 4>
+21:24:11,239 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.MAPPED: 3> -> <SessionState.END_SENT: 4>
+21:24:11,239 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPENED: 9> -> <ConnectionState.CLOSE_SENT: 11>
+21:24:11,239 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.CLOSE_SENT: 11> -> <ConnectionState.END: 13>
+21:24:11,239 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.END_SENT: 4> -> <SessionState.DISCARDING: 6>
+21:24:11,240 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:24:11,240 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:24:11,240 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:24:11,240 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.DETACHED: 0>
+21:24:11,240 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:11,240 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:11,240 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:11,240 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACH_SENT: 4> -> <LinkState.DETACHED: 0>
+21:24:11,631 azure.eventhub._pyamqp._connection INFO Connection state changed: None -> <ConnectionState.START: 0>
+21:24:11,745 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.START: 0> -> <ConnectionState.HDR_SENT: 2>
+21:24:11,750 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.HDR_SENT: 2>
+21:24:11,764 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.HDR_SENT: 2> -> <ConnectionState.OPEN_PIPE: 4>
+21:24:11,776 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.UNMAPPED: 0> -> <SessionState.BEGIN_SENT: 1>
+21:24:11,790 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:11,790 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:11,790 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:11,790 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:11,796 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_PIPE: 4> -> <ConnectionState.OPEN_SENT: 7>
+21:24:11,858 azure.eventhub._pyamqp._connection INFO Connection state changed: <ConnectionState.OPEN_SENT: 7> -> <ConnectionState.OPENED: 9>
+21:24:11,919 azure.eventhub._pyamqp.session INFO Session state changed: <SessionState.BEGIN_SENT: 1> -> <SessionState.MAPPED: 3>
+21:24:11,985 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:11,992 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:12,64 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:12,69 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:12,362 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:12,368 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:12,380 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:12,385 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.DETACHED: 0> -> <LinkState.ATTACH_SENT: 1>
+21:24:12,407 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:12,412 azure.eventhub._pyamqp.management_link INFO Management link receiver state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:12,425 azure.eventhub._pyamqp.link INFO Link state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:12,425 azure.eventhub._pyamqp.management_link INFO Management link sender state changed: <LinkState.ATTACH_SENT: 1> -> <LinkState.ATTACHED: 3>
+21:24:18,363 azure.eventhub._eventprocessor.event_processor INFO EventProcessor '6500c091-0412-4f4c-97b3-a2032bc11506' has been stopped.
+21:24:18,363 root WARNING Stopped Receiving.

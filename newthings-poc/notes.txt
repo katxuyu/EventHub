@@ -1,0 +1,4 @@
+sudo service redis-server start
+'{"https://eoga865eaol9xgc.m.pipedream.net": {"Authorization": "Auth0"}, "https://eo50opvnqmmfbni.m.pipedream.net": {"Authorization": "Auth0"}, "https://eo34m41cbh7hqjc.m.pipedream.net": {"Authorization": "Auth0"}}' 
+
+
